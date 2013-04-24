@@ -12,6 +12,14 @@
 	<url>http://www.xiam.com</url>
 	<description>This is the ${project.groupId}, ${project.artifactId} project from  ${project.url}</description>
 
+	<scm>
+		<developerConnection>
+			scm:git:git@github.com:colinobr/fred.git
+		</developerConnection>
+		<tag>HEAD</tag>
+	</scm>
+
+
 	<distributionManagement>
 		<repository>
 			<id>localhost_nexus_releases</id>
