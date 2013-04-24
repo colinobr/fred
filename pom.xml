@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 
 	<groupId>com.xiam</groupId>
@@ -82,7 +83,7 @@
 				<version>1.7</version>
 				<configuration>
 					<target name="default-cfg">
-						<echo message="running Ant" />
+						<echo message="running Ant"></echo>
 					</target>
 				</configuration>
 				<executions>
@@ -91,7 +92,7 @@
 						<phase>clean</phase>
 						<configuration>
 							<target name="cleanup">
-								<echo message="cleaning with Ant" />
+								<echo message="cleaning with Ant"></echo>
 							</target>
 						</configuration>
 						<goals>
@@ -103,7 +104,7 @@
 						<phase>compile</phase>
 						<configuration>
 							<target name="compilr">
-								<echo message="ant compiling" />
+								<echo message="ant compiling"></echo>
 							</target>
 						</configuration>
 						<goals>
